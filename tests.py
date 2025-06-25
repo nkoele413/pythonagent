@@ -8,10 +8,10 @@ def test():
     result = run_python_file("calculator", "tests.py")
     print(result)
 
-    result = run_python_file("calculator", "../main.py")
+    result = run_python_file("calculator", "nonexistent.py")
     print(result)
 
-    result = run_python_file("calculator", "nonexistent.py")
+    result = run_python_file("calculator", "../main.py")
     print(result)
 
 
